@@ -255,6 +255,7 @@ a:focus {
 .tm-gallery-container {
   padding-top: 70px;
   padding-bottom: 120px;
+  
 }
 
 .tm-gallery-item {
@@ -267,6 +268,11 @@ a:focus {
 
 .slick-dots li {
   margin: 0 13px;
+}
+
+.slick-track{
+  display: flex;
+  align-items: center;
 }
 
 .slick-dots li button:hover:before,
@@ -426,6 +432,7 @@ figure.effect-honey:hover h2 i {
 #contact {
   color: white;
   background-image: url(../img/praia.jpg);
+  background-size: 300%;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 850px;
@@ -563,6 +570,9 @@ p {
   .tm-btn-submit {
     margin-left: 0;
     margin-top: 20px;
+  }
+  #contact {
+    background-size: 600%;
   }
 }
 
