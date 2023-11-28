@@ -275,6 +275,10 @@ a:focus {
   align-items: center;
 }
 
+.workLink{
+  margin-top: 30px;
+}
+
 .slick-dots li button:hover:before,
 .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
